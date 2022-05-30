@@ -1,0 +1,6 @@
+name: MySQLAPI
+version: '${version}'
+main: ru.shk.mysql.spigot.Spigot
+api-version: 1.13
+load: STARTUP
+authors: [ shoker137 ]

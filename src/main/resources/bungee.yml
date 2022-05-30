@@ -1,0 +1,4 @@
+name: MySQLAPI
+version: '${version}'
+main: ru.shk.mysql.bungee.Bungee
+authors: [ shoker137 ]
