@@ -23,10 +23,12 @@ All versions can be found [here](https://nexus.shoker.su/#browse/browse:maven-re
 ## Usage
 Obtaining MySQL object
 ```java
-// Create a MySQL connection to a default MySQL-server defined in config and enter the database-name database
+// Create a MySQL connection to a default MySQL-server defined in config
+// and enter the database-name database
 MySQL sql = new MySQL("database-name");
 
-// Create a MySQL connection to a server-name MySQL-server defined in config and enter the database-name database
+// Create a MySQL connection to a server-name MySQL-server defined in config
+// and enter the database-name database
 MySQL sql = new MySQL("server-name", "database-name");
 
 // Create a MySQL connection with custom connection arguments
