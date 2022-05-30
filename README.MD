@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'ru.shk:MySQLAPI:2.0.1'
+    compileOnly 'ru.shk:MySQLAPI:2.0.2'
 }
 ```
 All versions can be found [here](https://nexus.shoker.su/#browse/browse:maven-releases:ru%2Fshk%2FMySQLAPI)
