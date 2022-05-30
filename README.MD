@@ -50,7 +50,7 @@ ResultSet rs = sql.Query("SELECT * FROM table");
 PreparedStatment ps = sql.getStatement("UPDATE table SET a=?");
 
 // Create a statement which returns a ResultSet of generated keys
-PreparedStatement ps = sql.getStatementWithGeneratedKeys("INSERT INTO table a=1;")
+PreparedStatement ps = sql.getStatementWithGeneratedKeys("INSERT INTO table SET a=1;")
 ps.execute();
 ResultSet rs = ps.getGeneratedKeys();
 
