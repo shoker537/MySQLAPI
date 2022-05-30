@@ -3,7 +3,7 @@ Compiled with Java 16
 
 ## Importing
 
-* Add MySQLAPI to depends of your plugin**
+* Add MySQLAPI to depends of your plugin
 * MySQLAPI must be installed as a plugin
 
 ```groovy
