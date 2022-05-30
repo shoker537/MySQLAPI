@@ -57,7 +57,8 @@ ResultSet rs = ps.getGeneratedKeys();
 ```
 Using builders
 ```java
-ResultSet rs = sql.Query().SELECT("what").FROM("table").WHERE("a=1").WHERE("b=2").WHERE("c=3 AND d=4").LIMIT(1).execute();
+ResultSet rs = sql.Query().SELECT("what").FROM("table").WHERE("a=1")
+        .WHERE("b=2").WHERE("c=3 AND d=4").LIMIT(1).execute();
 sql.Update().TABLE("table").SET("a=1", "b=2", "c=3").WHERE("d=4").execute();
 // Also available: .executeSync() and .executeExpected() fpr UpdateBuilder
 ```
